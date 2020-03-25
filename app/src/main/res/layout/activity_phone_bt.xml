@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.settings.watchbluetooth.view.CircleImageView xmlns:ns1="http://schemas.android.com/apk/res-auto"
+        xmlns:ns2="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_circleimageview"
+        ns1:border_color="@android:color/black"
+        ns2:border_width="0.1dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_bolder_padding">
+
+        <ImageView
+            android:id="@+id/icon_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tips_tv" />
+
+        <TextView
+            android:id="@+id/tips_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="@string/open_app_conn_watch"
+            android:textColor="@color/selected_color"
+            android:textSize="@dimen/text_size" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WatchBluetooth</string>
+    <string name="binded_phone">Điện thoại di động hiện đang bị ràng buộc</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_headset">Tai nghe Bluetooth</string>
+    <string name="bluetooth_phone">Điện thoại di động Bluetooth</string>
+    <string name="cancle">Hủy bỏ</string>
+    <string name="cancle_pair">Không ghép đôi</string>
+    <string name="conn_device">Kết nối thiết bị</string>
+    <string name="connected">Đã kết nối</string>
+    <string name="disconn_device">Ngắt kết nối thiết bị</string>
+    <string name="disconnected">Không kết nối</string>
+    <string name="notfound">Không tìm thấy</string>
+    <string name="ok">Xác định</string>
+    <string name="open_app_conn_watch">Mở kết nối đồng hồ APP Quét mã QR ràng buộc</string>
+    <string name="paired">Ghép đôi</string>
+    <string name="permission_tips">Cần có quyền định vị để quét Bluetooth. Bạn có đồng ý không</string>
+    <string name="scanning">Quét</string>
+    <string name="unbind_content_msg">Sau khi hủy liên kết, bạn sẽ không nhận được tin nhắn thông báo di động.</string>
+    <string name="unbind_phone">Không ràng buộc</string>
+</resources>

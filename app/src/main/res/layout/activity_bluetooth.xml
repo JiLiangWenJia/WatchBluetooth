@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.watchbluetooth.view.CircularRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.settings.watchbluetooth.view.CircleImageView xmlns:ns1="http://schemas.android.com/apk/res-auto"
+        xmlns:ns2="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_circleimageview"
+        ns1:border_color="@android:color/black"
+        ns2:border_width="-0.1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/layout_bolder_padding"
+        android:paddingTop="@dimen/layout_bolder_padding"
+        android:paddingRight="40dp">
+
+        <RelativeLayout
+            android:id="@+id/switch_wifi_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/bluetooth"
+                android:textColor="@color/selected_color"
+                android:textSize="@dimen/text_size" />
+
+            <CheckBox
+                android:id="@+id/switch_bt_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="#000"
+                android:button="@drawable/switch_btn_s"
+                android:clickable="false"
+                android:focusable="false" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bt_phone_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_click_ripple"
+                android:clickable="false"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/bt_phone_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/bluetooth_phone"
+                    android:textColor="@color/unselected_color"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/bt_phone_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/disconnected"
+                    android:textColor="@color/unselected_color"
+                    android:textSize="@dimen/text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bt_headset_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_click_ripple"
+                android:clickable="false"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp">
+
+                <TextView
+                    android:id="@+id/bt_headset_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/bluetooth_headset"
+                    android:textColor="@color/unselected_color"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/bt_headset_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:text="@string/disconnected"
+                    android:textColor="@color/unselected_color"
+                    android:textSize="@dimen/text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/loadding_01"
+        layout="@layout/dialog_loadding"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/permission_v"
+        layout="@layout/layout_permission" />
+</com.android.settings.watchbluetooth.view.CircularRelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">转到主屏幕</string>
+    <string name="abc_action_bar_home_description_format">%1$s：%2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s - %2$s：%3$s</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享方式</string>
+    <string name="abc_shareactionprovider_share_with_application">通过%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="app_name">WatchBluetooth</string>
+    <string name="binded_phone">当前已绑定手机</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="bluetooth_headset">蓝牙耳机</string>
+    <string name="bluetooth_phone">手机蓝牙</string>
+    <string name="cancle">取消</string>
+    <string name="cancle_pair">取消配对</string>
+    <string name="conn_device">连接设备</string>
+    <string name="connected">已连接</string>
+    <string name="disconn_device">断开设备</string>
+    <string name="disconnected">未连接</string>
+    <string name="notfound">未发现</string>
+    <string name="ok">确定</string>
+    <string name="open_app_conn_watch">打开APP-手表连接\10扫描二维码绑定</string>
+    <string name="paired">已配对</string>
+    <string name="permission_tips">蓝牙扫描时需要使用定位权限．您是否同意？</string>
+    <string name="scanning">扫描</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="unbind_content_msg">解除绑定后,将接收不到\10手机通知消息</string>
+    <string name="unbind_phone">解除绑定</string>
+</resources>

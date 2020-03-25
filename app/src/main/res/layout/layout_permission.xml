@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.android.settings.watchbluetooth.view.CircleImageView xmlns:ns1="http://schemas.android.com/apk/res-auto"
+        xmlns:ns2="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@android:color/black"
+        ns1:border_color="@android:color/black"
+        ns2:border_width="0dp" />
+
+    <TextView
+        android:id="@+id/prmission_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/permission_tips"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size" />
+
+    <include
+        layout="@layout/layout_button_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
